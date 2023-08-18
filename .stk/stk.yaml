@@ -1,0 +1,23 @@
+schema-version: v1
+kind: manifest
+metadata:
+  name: stk-python-1-app
+  description: primeiro app criado com a stackspot na conta personal
+  starter: sandbox-hy-python/python-stack/hello-starter-python
+  stack-version-id: 01H84V4DGZ70TYRAVWPAG87HXM
+  stack: python-stack
+spec:
+  type: app
+  app-id: 01H84VYQX3DBGFCQMKY24C94P9
+  plugins:
+    - name: sandbox-hy-python/python-stack/hello-python@0.0.1
+      plugin-version-id: 01H84V160Q3YVZD657CCBH5XBD
+      stack-version-id: 01H84V4DGZ70TYRAVWPAG87HXM
+      type: app
+      inputs:
+        name: VaiStackspot
+      inputs-envs: {}
+      connectors: []
+  global-inputs: {}
+  global-computed-inputs: {}
+  repository: https://github.com/hyodo-stk/stk-python-1-app
